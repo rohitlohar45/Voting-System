@@ -101,4 +101,4 @@ _Feel free to contribute._
 
 ---
 
-Made with ❤️ by [Bibek Aryal](https://bibeka.com.np/).
+<!-- Made with ❤️ by [Bibek Aryal](https://bibeka.com.np/). -->
