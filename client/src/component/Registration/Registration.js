@@ -166,10 +166,7 @@ export default class Registration extends Component {
                     <label className={"label-r"}>
                       Account Address
                       <input
-                        className={"input-r"}
-                        type="text"
-                        value={this.state.account}
-                        style={{ width: "400px" }}
+                        type="text" class="inputfield" value={this.state.account} 
                       />{" "}
                     </label>
                   </div>
@@ -179,7 +176,7 @@ export default class Registration extends Component {
                       <input
                         className={"input-r"}
                         type="text"
-                        placeholder="eg. Ava"
+                        placeholder="eg. Name"
                         value={this.state.voterName}
                         onChange={this.updateVoterName}
                       />{" "}
