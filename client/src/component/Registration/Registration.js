@@ -166,7 +166,7 @@ export default class Registration extends Component {
                     <label className={"label-r"}>
                       Account Address
                       <input
-                        type="text" class="inputfield" value={this.state.account} 
+                        type="text" className={"input-r"} value={this.state.account} 
                       />{" "}
                     </label>
                   </div>

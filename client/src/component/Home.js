@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import background from "../img/Vote.jpg";
 
 // Components
 import Navbar from "./Navbar/Navigation";
@@ -166,7 +167,7 @@ export default class Home extends Component {
           </>
         ) : !this.state.isElStarted && this.state.isElEnded ? (
           <>
-            <div className="container-item attention">
+            <div style={{backgroundImage: `url(${background})`}} className="container-item attention">
               <center>
                 <h3>The Election ended.</h3>
                 <br />
@@ -200,6 +201,15 @@ export default class Home extends Component {
       const onSubmit = (data) => {
         this.registerElection(data);
       };
+
+      const myStyle={
+        backgroundImage: "url(../img/Vote.jpg)",
+        height:'100vh',
+        // marginTop:'-70px',
+        //fontSize:'50px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+    };
 
       return (
         <div>

@@ -6,12 +6,12 @@ li {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 nav {
   display: flex;
   height: 11vh;
-  background: tomato;
+  background: white;
   justify-content: space-around;
   position: sticky;
   top: 0;
@@ -43,7 +43,7 @@ nav .navbar-links a:hover {
 }
 nav .burger-menu {
   font-size: 24px;
-  color: white;
+  color: black;
   cursor: pointer;
   display: none;
 }
@@ -67,6 +67,6 @@ nav .burger-menu {
   }
   nav .navbar-links li {
     padding: 25px;
-    border-top: 3px solid white;
+    border-top: 3px solid black;
   }
 }

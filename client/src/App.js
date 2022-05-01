@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Home from "./component/Home";
-//import Main from "./component/Main";
+import Main from "./component/Main";
 
 import Voting from "./component/Voting/Voting";
 import Results from "./component/Results/Results";
@@ -23,6 +23,7 @@ export default class App extends Component {
       <div className="App">
         <Router>
           <Switch>
+            <Route exact path="/Main" component={Main} />
             <Route exact path="/" component={Home} />
             <Route exact path="/AddCandidate" component={AddCandidate} />
             <Route exact path="/Voting" component={Voting} />

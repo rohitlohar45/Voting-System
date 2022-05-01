@@ -136,7 +136,7 @@ export default class AddCandidate extends Component {
                 />
               </label>
               <label className={"label-ac"}>
-                Slogan
+                Qualification
                 <input
                   className={"input-ac"}
                   type="text"

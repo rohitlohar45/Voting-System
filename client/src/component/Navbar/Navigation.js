@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 
 import "./Navbar.css";
 
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  
   return (
     <nav>
       <NavLink to="/" className="header">
